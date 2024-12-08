@@ -1,0 +1,26 @@
+/* Main App */
+
+.main-app {
+  /* border: 2px solid black; */
+  width: 100%;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+body {
+  padding: 10px;
+}
+
+.word-input {
+  font-size: 10px;
+}
+
+.search-btn {
+  font-size: 10px;
+}
+
+label {
+    right: 10%;
+}

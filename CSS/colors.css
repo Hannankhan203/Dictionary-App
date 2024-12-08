@@ -1,0 +1,83 @@
+label .check.light-mode {
+  background: #101010;
+  box-shadow: 0 0 0 4px #101010;
+  transition: 0.5s;
+}
+
+label .check.dark-mode {
+  background: #f4f4f4;
+  box-shadow: 0 0 0 4px #f4f4f4;
+  transition: 0.5s;
+}
+
+label .botn.light-mode::before {
+  background: #252525;
+  transition: 0.5s;
+  box-shadow: inset -5px -5px 15px rgba(0, 0, 0, 0.3);
+}
+
+label .botn.dark-mode::before {
+  background: #5f5f5f;
+  transition: 0.5s;
+  box-shadow: inset -5px -5px 15px rgb(255, 255, 255);
+}
+
+label .botn.light-mode::after {
+  background: #252525;
+  transition: 0.5s;
+  box-shadow: inset -5px -5px 15px rgba(0, 0, 0, 0.3);
+}
+
+label .botn.dark-mode::after {
+  background: #5f5f5f;
+  transition: 0.5s;
+  box-shadow: inset -5px -5px 15px rgb(255, 255, 255);
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #1c1c1c;
+  transition: 0.5s;
+}
+
+body.dark-mode {
+  background-color: #1c1c1c;
+  color: #eaeaea;
+  transition: 0.5s;
+}
+
+.main-app.light-mode {
+  background-color: #ffffff;
+  color: #1c1c1c;
+  transition: 0.5s;
+}
+
+.main-app.dark-mode {
+  background-color: #1c1c1c;
+  color: #eaeaea;
+  transition: 0.5s;
+}
+
+.word-input.light-mode {
+  background-color: #ffffff;
+  color: #1c1c1c;
+  transition: 0.5s;
+}
+
+.word-input.dark-mode {
+  background-color: #1c1c1c;
+  color: #eaeaea;
+  transition: 0.5s;
+}
+
+.search-btn.light-mode {
+  background-color: #ffffff;
+  color: #1c1c1c;
+  transition: 0.5s;
+}
+
+.search-btn.dark-mode {
+  background-color: #1c1c1c;
+  color: #eaeaea;
+  transition: 0.5s;
+}

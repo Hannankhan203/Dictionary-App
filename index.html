@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="CSS/fonts.css" />
+    <!-- Color CSS -->
+    <link rel="stylesheet" href="CSS/colors.css" />
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Large CSS -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1400px)"
+      href="CSS/large.css"
+    />
+    <!-- Normal CSS -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1200px)"
+      href="CSS/normal.css"
+    />
+    <!-- Laptop CSS -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 992px)"
+      href="CSS/laptop.css"
+    />
+    <!-- Tablet CSS -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="CSS/tablets.css"
+    />
+    <!-- Mobile CSS -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 576px)"
+      href="CSS/mobile.css"
+    />
+    <title>Dictionary App</title>
+  </head>
+  <body>
+    <!-- Toggle Mode -->
+    <label for="">
+      <input type="checkbox" class="styled-checkbox" id="theme-checkbox" />
+      <span class="check"></span>
+      <span class="botn"></span>
+    </label>
+    <h1 class="heading">Dictionary App</h1>
+    <!-- Main App -->
+    <div class="main-app">
+      <div class="search-bar" id="search-bar">
+        <input
+          type="text"
+          class="word-input"
+          id="word-input"
+          placeholder="Enter a word ..."
+        />
+        <button class="search-btn" id="search-btn">Search</button>
+      </div>
+      <div class="result">
+        <div class="word" id="word"></div>
+        <div class="phonetic" id="phonetic"></div>
+        <div class="definition" id="definition"></div>
+        <div class="example" id="example"></div>
+      </div>
+    </div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
